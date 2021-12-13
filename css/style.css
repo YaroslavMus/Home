@@ -467,7 +467,7 @@ body {
     border-radius: 15px;
     border: 1px solid rgba(141, 159, 187, 0.33);
 }
-.modal div {
+.modal-title {
     font-weight: bold;
     font-size: 23px;
     line-height: 120%;
@@ -478,7 +478,13 @@ body {
 .modal button {
     width: 275px;
 }
-.main-total{
+.modal-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    color: #e97000;
+}
+.main-total {
     height: 80vh;
     display: flex;
     align-items: center;
@@ -494,4 +500,16 @@ body {
     line-height: 120%;
     width: 305px;
     color: #132651;
+}
+
+
+
+/* MODAL.HTML */
+.modal-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.modal-content > .modal-container{
+    display: flex;
 }
