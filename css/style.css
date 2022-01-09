@@ -444,8 +444,8 @@ body {
     top: 10px;
 }
 .card-img {
-    width: 375px;
-    height: 300px;
+    max-width: 345px;
+    max-height: 300px;
 }
 .modal-container {
     display: none;
