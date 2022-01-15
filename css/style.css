@@ -359,7 +359,7 @@ body {
     background: #00d69b;
     border: 1px solid #00d69b;
 }
-.active-numder{
+.active-numder {
     color: #fff;
     background: #00d69b;
     border: 1px solid #00d69b;
@@ -411,6 +411,28 @@ body {
     font-weight: 500;
     font-size: 18px;
     color: #132651;
+    margin-top: 6px;
+}
+.card-list li:nth-child(1){
+    display: flex;
+    align-items: center;
+}
+.card-list li:nth-child(1) > div:nth-child(1){
+ margin-right: 57px;
+}
+.card-list li:nth-child(1) > div {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 100%;
+    flex-direction: column;
+    color: #8d9fbb;
+    margin-top: 0px;
+}
+.card-list li:nth-child(1) span {
+    display: block;
+    font-weight: 500;
+    font-size: 18px;
+    color: #132651; 
     margin-top: 6px;
 }
 .card-list a {
@@ -513,7 +535,7 @@ body {
 
     margin-top: 23px;
 }
-.document svg{
+.document svg {
     margin-right: 13px;
 }
 .document button {
